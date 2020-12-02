@@ -14,3 +14,8 @@ KoChat 실행 간 유의사항
 
 KoChat 학습 진행 간 main loop 오류는 matplot으로 인한 것.
 matplot.use('Agg')를 해주면 오류가 나지 않고 학습이 진행 됨.
+
+
+
+argmax(): argument 'input' (position 1) must be Tensor, not str 오류
+-> 트랜스포머 버전 문제. kogpt2가 설치했던 2번대 버전으로 설치를 해야 함 (파이토치, 쿠다와는 연관이 없음.)
