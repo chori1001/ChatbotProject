@@ -6,6 +6,8 @@
 
 KoGP2-Chatbot 사용 간 유의사항
 gluonnlp 설치 간에 오류 발생 -> 비쥬얼 스튜디오 설치로 해결
+(비쥬얼 스튜디오 -> C++  빌더만 설치하면 OK)
+
 cuda 사용 간에 num_worker = 0 (colab 진행 후 세이브 데이터로 모델 실행만 진행.)
 
 KoChat 실행 간 유의사항
